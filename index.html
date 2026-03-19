@@ -5,20 +5,35 @@
 <title>República Católica</title>
 
 <style>
+
+/* FONDO GENERAL (laterales granate) */
 body {
-    background-color: #f4f1ea;
-    font-family: "Times New Roman", serif;
-    color: #1a1a1a;
     margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #6b1f1f; /* granate */
 }
 
+/* CONTENEDOR CENTRAL (efecto documento) */
 .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
-    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f4f1ea;
+    padding: 50px 60px;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
+/* LOGO */
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    width: 160px;
+}
+
+/* TÍTULO */
 h1 {
     text-align: center;
     letter-spacing: 4px;
@@ -26,44 +41,56 @@ h1 {
     margin-bottom: 5px;
 }
 
-h2 {
-    color: #6b1f1f;
+/* LEMA */
+.lema {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+    margin-top: 0;
 }
 
-p {
-    margin-bottom: 15px;
+/* MENÚ */
+nav {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 16px;
 }
 
-a {
+/* ENLACES CORRECTAMENTE FORZADOS */
+a:link, a:visited {
     color: #6b1f1f;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
     text-decoration: underline;
 }
 
-nav {
-    text-align: center;
-    margin: 20px 0;
+/* SECCIONES */
+h2 {
+    color: #6b1f1f;
+    margin-top: 30px;
 }
 
+/* TEXTO */
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* LÍNEAS */
 hr {
     border: 0;
     border-top: 1px solid #8c7a5b;
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
-.logo {
-    text-align: center;
-    margin-bottom: 10px;
+/* LISTAS */
+ul {
+    padding-left: 20px;
 }
 
-.logo img {
-    width: 110px;
-}
 </style>
-
 </head>
 
 <body>
@@ -75,13 +102,11 @@ hr {
         <img src="CHIC (9).png">
     </div>
 
-    <!-- NOMBRE -->
+    <!-- TÍTULO -->
     <h1>REPÚBLICA CATÓLICA</h1>
 
     <!-- LEMA -->
-    <p style="text-align:center; font-style:italic; color:#444;">
-        La cosa pública orientada al bien común
-    </p>
+    <p class="lema">La cosa pública orientada al bien común</p>
 
     <hr>
 
