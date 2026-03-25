@@ -106,23 +106,28 @@ margin-bottom: 25px;
 font-style: italic;
 }
 
-/* CUERPO DEL ARTÍCULO */
+/* CUERPO */
 .article-body p {
 text-indent: 30px;
-line-height: 1.75;
+line-height: 1.7;
 margin-bottom: 20px;
 text-align: justify;
 }
 
-/* LETRA CAPITULAR PROFESIONAL */
+/* PRIMER PÁRRAFO SIN SANGRÍA */
+.article-body p:first-of-type {
+text-indent: 0;
+}
+
+/* CAPITULAR TIPO WORD */
 .article-body p:first-of-type::first-letter {
-font-size: 52px;
+float: left;
+font-size: 64px;
+line-height: 0.85;
+padding-right: 8px;
+padding-top: 6px;
 font-weight: bold;
 color: #6b1f1f;
-float: left;
-line-height: 0.9;
-margin-right: 8px;
-margin-top: 4px;
 }
 
 </style>
