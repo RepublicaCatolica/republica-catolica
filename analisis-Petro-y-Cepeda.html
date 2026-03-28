@@ -2,120 +2,140 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Título del artículo</title>
+<title>¿Qué es el bien común? (y ¿por qué no es el interés de la mayoría?)</title>
 
 <style>
 
-/* ====== GENERAL ====== */
+/* FONDO GENERAL */
 body {
-    font-family: "Times New Roman", serif;
-    margin: 0;
-    background-color: #ffffff;
+margin: 0;
+font-family: "Times New Roman", serif;
+background-color: #6b1f1f;
 }
 
 /* CONTENEDOR */
-.contenido {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
+.container {
+max-width: 900px;
+margin: auto;
+background-color: #f4f1ea;
+padding: 50px 60px;
+min-height: 100vh;
 }
 
-/* ====== ENCABEZADO ====== */
-header {
-    text-align: center;
-    padding: 20px;
-    border-bottom: 1px solid #ccc;
-}
-
+/* LOGO */
 .logo {
-    width: 80px;
+text-align: center;
+margin-bottom: 15px;
+}
+.logo img {
+width: 180px;
 }
 
-.lema {
-    font-size: 14px;
-    color: #555;
-    margin-top: 5px;
-}
-
-/* ====== MENÚ ====== */
-nav {
-    text-align: center;
-    margin-top: 15px;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #800020;
-    font-weight: bold;
-}
-
-/* ====== TÍTULO ====== */
+/* TÍTULO PRINCIPAL DEL SITIO */
 h1 {
-    font-size: 32px;
-    margin-bottom: 5px;
+text-align: center;
+letter-spacing: 4px;
+color: #6b1f1f;
+margin-bottom: 5px;
+}
+
+/* LEMA */
+.lema {
+text-align: center;
+font-style: italic;
+color: #444;
+}
+
+/* MENÚ */
+nav {
+text-align: center;
+margin: 25px 0;
+}
+
+a:link, a:visited {
+color: #6b1f1f;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* LÍNEA */
+hr {
+border: 0;
+border-top: 1px solid #8c7a5b;
+margin: 30px 0;
+}
+
+/* ========================= */
+/* ARTÍCULO */
+/* ========================= */
+
+/* TÍTULO DEL ARTÍCULO */
+.article-title {
+font-size: 28px;
+color: #2c2c2c;
+margin-bottom: 10px;
 }
 
 /* SUBTÍTULO */
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-style: italic;
     font-weight: normal;
     margin-top: 0;
-    margin-bottom: 15px;
-}
+    margin-bottom: 10px;
 
 /* AUTOR */
-.autor {
-    font-size: 16px;
+.author {
+font-size: 16px;
+margin-bottom: 2px;
 }
 
 /* FECHA */
-.fecha {
-    font-size: 14px;
-    color: gray;
-    margin-bottom: 25px;
+.date {
+font-size: 14px;
+color: #555;
+margin-bottom: 25px;
 }
 
 /* IMAGEN */
-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 5px;
+.article-image img {
+width: 100%;
+margin-bottom: 5px;
 }
 
-/* DESCRIPCIÓN */
-.descripcion {
-    font-size: 13px;
-    color: #555;
-    margin-bottom: 25px;
+/* DESCRIPCIÓN IMAGEN */
+.caption {
+font-size: 13px;
+color: #555;
+margin-bottom: 25px;
+font-style: italic;
 }
 
-/* PÁRRAFOS */
-p {
-    text-indent: 0.8em;
-    margin-bottom: 15px;
-    text-align: justify;
+/* CUERPO */
+.article-body p {
+text-indent: 0.6em;
+line-height: 1.7;
+margin-bottom: 20px;
+text-align: justify;
 }
 
-/* CAPITULAR SOLO PRIMER PÁRRAFO */
-.inicio::first-letter {
-    float: left;
-    font-size: 32px;
-    font-weight: bold;
-    color: #800020;
-    margin-right: 4px;
-    line-height: 1;
+/* PRIMER PÁRRAFO SIN SANGRÍA */
+.article-body p:first-of-type {
+text-indent: 0;
 }
 
-/* ====== FOOTER ====== */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    border-top: 1px solid #ccc;
-    font-size: 14px;
-    color: #555;
+/* CAPITULAR */
+.article-body p:first-of-type::first-letter {
+float: left;
+font-size: 64px;
+line-height: 0.85;
+padding-right: 8px;
+padding-top: 6px;
+font-weight: bold;
+color: #6b1f1f;
 }
 
 </style>
@@ -123,61 +143,63 @@ footer {
 
 <body>
 
-<!-- ====== ENCABEZADO ====== -->
-<header>
-    <img src="CHIC (9).png" alt="Logo República Católica" class="logo">
-    <div class="lema">La cosa pública orientada al bien común.</div>
+<div class="container">
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="doctrina.html">Doctrina</a>
-        <a href="formacion.html">Formación</a>
-        <a href="analisis.html">Análisis</a>
-        <a href="biblioteca.html">Biblioteca</a>
-    </nav>
-</header>
-
-<!-- ====== CONTENIDO ====== -->
-<div class="contenido">
-    
-</style>
-
-</head>
-
-<body>
-
-<!-- 1. TÍTULO -->
-<h1> Petro y Cepeda no son el problema: son el síntoma.</h1>
-
-<!-- 2. SUBTÍTULO -->
-<h2>La degradación del principio de autoridad en la política moderna.</h2>
-
-<!-- 3. AUTOR -->
-<div class="autor">Por Adrián Esteban Hincapié Arango</div>
-
-<!-- 4. FECHA -->
-<div class="fecha">Publicado el 28 de marzo de 2026 – 10:30 a. m.</div>
-
-<!-- 5. IMAGEN -->
-<img src="Petro y Cepeda.jpg" alt="Gustavo Petro e Iván Cepeda">
-
-<!-- 6. DESCRIPCIÓN -->
-<div class="descripcion">
-El actual presidente de Colombia, Gustavo Petro, quiere continuar con la indigestión socialista en Colombia en la persona de Iván Cepeda, cuestionado por su afinidad con el grupo terrorista FARC. 
+<!-- LOGO -->
+<div class="logo">
+<img src="CHIC (9).png">
 </div>
 
-<!-- 7. CUERPO DEL ARTÍCULO -->
+<!-- NOMBRE -->
+<h1>REPÚBLICA CATÓLICA</h1>
+<p class="lema">La cosa pública orientada al bien común</p>
+
+<hr>
+
+<!-- MENÚ -->
+<nav>
+<a href="index.html">Inicio</a> ·
+<a href="doctrina.html">Doctrina</a> ·
+<a href="analisis.html">Análisis</a> ·
+<a href="formacion.html">Formación</a> ·
+<a href="biblioteca.html">Biblioteca</a> ·
+<a href="contacto.html">Contacto</a>
+</nav>
+
+<hr>
+
+<!-- ========================= -->
+<!-- ARTÍCULO -->
+<!-- ========================= -->
+
+<h2 class="article-title">Petro y Cepeda no son el problema: son el síntoma.</h2>
+<h2 class="subtitle">La degradación del principio de autoridad en la política moderna.</h2>
+
+<div class="author">Por Adrián Esteban Hincapié Arango</div>
+<div class="date">Publicado el 28 de marzo de 2026 · 10:30 a. m.</div>
+
+<div class="article-image">
+<img src="Petro y Cepeda.jpg">
+</div>
+
+<div class="caption">
+El actual presidente de Colombia, Gustavo Petro, quiere continuar con la indigestión socialista en Colombia en la persona de Iván Cepeda, cuestionado por su afinidad con el grupo terrorista FARC.
+</div>
+
+<div class="article-body">
+
 <p>
 Colombia atraviesa un momento de alta tensión política e institucional. Las controversias del gobierno -los altos niveles de corrupción, el cinismo evidente frente a los actos descubiertos por las autoridades, el aferrarse a figuras evidentemente corruptas, el despilfarro flagrante del erario y la consiguiente necesidad de aumentar impuestos-, el choque entre poderes y la creciente polarización han llevado a muchos a concluir que el país enfrenta una crisis provocada por su actual presidente. Sin embargo, reducir el problema a una figura concreta es no entender la raíz del fenómeno.
 </p>
 
 <p>
-El error más extendido hoy consiste en personalizar la crisis. Se discuten decisiones, declaraciones y estilos de gobierno, pero se omite una cuestión más profunda: la progresiva disolución del principio de autoridad en la vida política. Colombia no enfrenta solo un mal gobierno; enfrenta algo más grave: una crisis de legitimidad del poder..
+El error más extendido hoy consiste en personalizar la crisis. Se discuten decisiones, declaraciones y estilos de gobierno, pero se omite una cuestión más profunda: la progresiva disolución del principio de autoridad en la vida política. Colombia no enfrenta solo un mal gobierno; enfrenta algo más grave: una crisis de legitimidad del poder.
 </p>
 
 <p>
-En el orden político clásico, la autoridad no es simplemente la capacidad de mandar ni el resultado de una elección. Es, ante todo, un principio moral: el poder existe para ordenar la sociedad al bien común. Cuando ese vínculo se rompe, el poder deja de ser autoridad y se convierte en mera imposición..
+En el orden político clásico, la autoridad no es simplemente la capacidad de mandar ni el resultado de una elección. Es, ante todo, un principio moral: el poder existe para ordenar la sociedad al bien común. Cuando ese vínculo se rompe, el poder deja de ser autoridad y se convierte en mera imposición.
 </p>
+
 <p>
 Lo que hoy se percibe como inestabilidad no es sino el síntoma visible de esa ruptura. El lenguaje político se ha degradado, la función del Estado se ha ideologizado y la obediencia civil se ha debilitado. No porque los ciudadanos se hayan vuelto naturalmente rebeldes, sino porque ya no reconocen en el poder un principio legítimo de orden.
 </p>
@@ -193,25 +215,23 @@ De ahí que el problema no se resuelva con un cambio de gobierno. Pensar que la 
 <p>
 La tradición política cristiana ha sido clara en este punto: la autoridad no proviene del capricho humano ni se justifica por sí misma. Tiene un origen superior y una finalidad concreta: el bien común. Cuando deja de servir a ese fin, se desordena; y cuando se desordena, pierde legitimidad, aunque conserve poder.
 </p>
-
+    
 <p>
 Colombia refleja hoy esa contradicción. Existe poder, pero no hay autoridad en sentido pleno. Hay decisiones, pero no orden. Hay gobierno, pero no necesariamente conducción política en el sentido más profundo.
 </p>
-
+  
 <p>
 Por eso, el verdadero desafío no es simplemente político, sino estructural. No se trata solo de corregir políticas públicas o moderar discursos, sino de restaurar el fundamento mismo del orden político: la autoridad entendida como servicio al bien común.
 </p>
-
+  
 <p>
 Mientras esa restauración no ocurra, cualquier cambio será superficial. Y el país seguirá oscilando entre gobiernos distintos, pero dentro de una misma crisis no resuelta.
 </p>
+  
+</div>
 
 </div>
 
-<!-- ====== PIE DE PÁGINA ====== -->
-<footer>
-    © 2026 República Católica – Todos los derechos reservados
-</footer>
-
 </body>
 </html>
+
