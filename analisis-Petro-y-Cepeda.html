@@ -5,14 +5,52 @@
 <title>Título del artículo</title>
 
 <style>
+
+/* ====== GENERAL ====== */
 body {
     font-family: "Times New Roman", serif;
-    margin: 40px;
-    line-height: 1.6;
-    text-align: justify;
+    margin: 0;
+    background-color: #ffffff;
 }
 
-/* TÍTULO */
+/* CONTENEDOR */
+.contenido {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* ====== ENCABEZADO ====== */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 80px;
+}
+
+.lema {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* ====== MENÚ ====== */
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #800020;
+    font-weight: bold;
+}
+
+/* ====== TÍTULO ====== */
 h1 {
     font-size: 32px;
     margin-bottom: 5px;
@@ -30,7 +68,6 @@ h2 {
 /* AUTOR */
 .autor {
     font-size: 16px;
-    margin-bottom: 5px;
 }
 
 /* FECHA */
@@ -47,35 +84,61 @@ img {
     margin-bottom: 5px;
 }
 
-/* DESCRIPCIÓN DE IMAGEN */
+/* DESCRIPCIÓN */
 .descripcion {
     font-size: 13px;
     color: #555;
     margin-bottom: 25px;
 }
 
-.article-body p {
-text-indent: 0.6em;
-line-height: 1.7;
-margin-bottom: 20px;
-text-align: justify;
+/* PÁRRAFOS */
+p {
+    text-indent: 0.8em;
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
-/* PRIMER PÁRRAFO SIN SANGRÍA */
-.article-body p:first-of-type {
-text-indent: 0;
+/* CAPITULAR SOLO PRIMER PÁRRAFO */
+.inicio::first-letter {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: #800020;
+    margin-right: 4px;
+    line-height: 1;
 }
 
-/* CAPITULAR */
-.article-body p:first-of-type::first-letter {
-float: left;
-font-size: 64px;
-line-height: 0.85;
-padding-right: 8px;
-padding-top: 6px;
-font-weight: bold;
-color: #6b1f1f;
+/* ====== FOOTER ====== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    color: #555;
 }
+
+</style>
+</head>
+
+<body>
+
+<!-- ====== ENCABEZADO ====== -->
+<header>
+    <img src="logo.png" alt="Logo República Católica" class="logo">
+    <div class="lema">Restaurar el orden político en Cristo Rey</div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="doctrina.html">Doctrina</a>
+        <a href="formacion.html">Formación</a>
+        <a href="analisis.html">Análisis</a>
+        <a href="biblioteca.html">Biblioteca</a>
+    </nav>
+</header>
+
+<!-- ====== CONTENIDO ====== -->
+<div class="contenido">
     
 </style>
 
@@ -142,6 +205,13 @@ Por eso, el verdadero desafío no es simplemente político, sino estructural. No
 <p>
 Mientras esa restauración no ocurra, cualquier cambio será superficial. Y el país seguirá oscilando entre gobiernos distintos, pero dentro de una misma crisis no resuelta.
 </p>
+
+</div>
+
+<!-- ====== PIE DE PÁGINA ====== -->
+<footer>
+    © 2026 República Católica – Todos los derechos reservados
+</footer>
 
 </body>
 </html>
