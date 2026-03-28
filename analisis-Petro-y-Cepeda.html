@@ -54,20 +54,27 @@ img {
     margin-bottom: 25px;
 }
 
-/* PÁRRAFOS */
-p {
-    text-indent: 0.8em; /* sangría moderada (una letra aprox.) */
-    margin-bottom: 15px;
+.article-body p {
+text-indent: 0.6em;
+line-height: 1.7;
+margin-bottom: 20px;
+text-align: justify;
 }
 
-/* LETRA CAPITULAR */
-p:first-of-type::first-letter {
-    float: left;
-    font-size: 32px;
-    font-weight: bold;
-    color: #800020;
-    margin-right: 4px;
-    line-height: 1;
+/* PRIMER PÁRRAFO SIN SANGRÍA */
+.article-body p:first-of-type {
+text-indent: 0;
+}
+
+/* CAPITULAR */
+.article-body p:first-of-type::first-letter {
+float: left;
+font-size: 64px;
+line-height: 0.85;
+padding-right: 8px;
+padding-top: 6px;
+font-weight: bold;
+color: #6b1f1f;
 }
     
 </style>
