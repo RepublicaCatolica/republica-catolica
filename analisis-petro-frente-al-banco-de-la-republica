@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>La tentación del poder sin límites: Petro frente al Banco de la República</title>
+
+<style>
+
+/* FONDO GENERAL */
+body {
+margin: 0;
+font-family: "Times New Roman", serif;
+background-color: #6b1f1f;
+}
+
+/* CONTENEDOR */
+.container {
+max-width: 900px;
+margin: auto;
+background-color: #f4f1ea;
+padding: 50px 60px;
+min-height: 100vh;
+}
+
+/* LOGO */
+.logo {
+text-align: center;
+margin-bottom: 15px;
+}
+.logo img {
+width: 180px;
+}
+
+/* TÍTULO PRINCIPAL DEL SITIO */
+h1 {
+text-align: center;
+letter-spacing: 4px;
+color: #6b1f1f;
+margin-bottom: 5px;
+}
+
+/* LEMA */
+.lema {
+text-align: center;
+font-style: italic;
+color: #444;
+}
+
+/* MENÚ */
+nav {
+text-align: center;
+margin: 25px 0;
+}
+
+a:link, a:visited {
+color: #6b1f1f;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* LÍNEA */
+hr {
+border: 0;
+border-top: 1px solid #8c7a5b;
+margin: 30px 0;
+}
+
+/* ========================= */
+/* ARTÍCULO */
+/* ========================= */
+
+/* TÍTULO DEL ARTÍCULO */
+.article-title {
+font-size: 28px;
+color: #2c2c2c;
+margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+h2 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+    
+/* AUTOR */
+.author {
+font-size: 16px;
+margin-bottom: 2px;
+}
+
+/* FECHA */
+.date {
+font-size: 14px;
+color: #555;
+margin-bottom: 25px;
+}
+
+/* IMAGEN */
+.article-image img {
+width: 100%;
+margin: auto;
+}
+
+/* DESCRIPCIÓN IMAGEN */
+.caption {
+font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* CUERPO */
+.article-body p {
+text-indent: 0.9em;
+line-height: 1.7;
+margin-bottom: 25px;
+text-align: justify;
+}
+
+/* PRIMER PÁRRAFO SIN SANGRÍA */
+.article-body p:first-of-type {
+text-indent: 0;
+}
+
+/* CAPITULAR */
+.article-body p.inicio::first-letter {
+    float: left;
+    font-size: 64px;
+    line-height: 0.85;
+    padding-right: 8px;
+    padding-top: 6px;
+    font-weight: bold;
+    color: #6b1f1f;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- LOGO -->
+<div class="logo">
+<img src="CHIC (9).png">
+</div>
+
+<!-- NOMBRE -->
+<h1>REPÚBLICA CATÓLICA</h1>
+<p class="lema">La cosa pública orientada al bien común</p>
+
+<hr>
+
+<!-- MENÚ -->
+<nav>
+<a href="index.html">Inicio</a> ·
+<a href="doctrina.html">Doctrina</a> ·
+<a href="analisis.html">Análisis</a> ·
+<a href="formacion.html">Formación</a> ·
+<a href="biblioteca.html">Biblioteca</a> ·
+<a href="contacto.html">Contacto</a>
+</nav>
+
+<hr>
+
+<!-- ========================= -->
+<!-- ARTÍCULO -->
+<!-- ========================= -->
+
+<h2 class="article-title">La tentación del poder sin límites: Petro frente al Banco de la República</h2>
+<h2 class="subtitle">La tensión entre Petro y el banco central revela un problema más profundo: la fragilidad de los límites institucionales frente a una concepción expansiva del poder político.</h2>
+
+<div class="author">Por Adrián Esteban Hincapié Arango</div>
+<div class="date">Publicado el 02 de abril de 2026 · 10:30 a. m.</div>
+
+<div class="article-image">
+<img src="Imagen1.jpg" alt="">
+</div>
+
+<div class="caption">
+Leonardo Villar, gerente del Banco de la República.  
+</div>
+
+<div class="article-body">
+
+<p class="inicio"> 
+En los últimos días, el enfrentamiento entre el gobierno de Gustavo Petro y el Banco de la República ha vuelto a poner en el centro del debate una cuestión fundamental: ¿quién controla, en última instancia, los instrumentos esenciales del poder en el Estado colombiano? Aunque presentado como un desacuerdo técnico sobre tasas de interés y política monetaria, el episodio revela una tensión más profunda entre la voluntad del Ejecutivo y los límites institucionales diseñados para contenerla.
+</p>
+
+<p>
+El Banco de la República no es una entidad cualquiera. Su autonomía no responde a un capricho tecnocrático, sino a una decisión política estructural: sustraer el manejo de la moneda de la presión inmediata del gobierno de turno. En términos históricos, esta separación busca evitar que el poder político, en su tendencia natural a expandirse, utilice la política monetaria como herramienta de corto plazo, aun a costa del equilibrio general del orden económico y social.
+</p>
+
+<p>
+Lo que hoy se observa no es simplemente una diferencia de criterio. Es la manifestación de una lógica más profunda: la dificultad del poder ejecutivo para aceptar límites reales a su capacidad de acción. En este sentido, la crítica insistente al Banco no debe leerse solo como desacuerdo, sino como expresión de una concepción del poder que percibe toda autonomía institucional como un obstáculo, y no como una garantía del orden.
+</p>
+
+<p>
+Desde la tradición política clásica, esta tensión es bien conocida. Toda forma de poder tiende, por su propia naturaleza, a ampliarse. Por eso, las sociedades han desarrollado mecanismos de equilibrio que buscan evitar su concentración excesiva. No se trata de desconfianza abstracta, sino de una comprensión realista de la condición humana y de la dinámica del poder. Cuando estos límites se erosionan, el orden institucional deja de ser un sistema de pesos y contrapesos para convertirse en una estructura formal subordinada a la voluntad política dominante.
+</p>
+
+<p>
+La doctrina social católica, en continuidad con esta tradición, ha insistido en que la autoridad es legítima en la medida en que está ordenada al bien común y ejercida dentro de límites objetivos. El poder no es absoluto ni autosuficiente; está subordinado a un orden moral y a una estructura institucional que lo orienta y lo contiene. Cuando la autoridad busca absorber funciones que le han sido deliberadamente restringidas, no fortalece el Estado: lo desordena.
+</p>
+
+<p>
+En el caso colombiano, la autonomía del Banco de la República representa precisamente uno de esos límites. No es un enclave ajeno al interés nacional, sino un instrumento diseñado para protegerlo de decisiones precipitadas o subordinadas a coyunturas políticas. Deslegitimar su función, o presionarlo públicamente de manera sistemática, no solo debilita la confianza institucional, sino que reconfigura el equilibrio entre los poderes del Estado.
+</p>
+
+<p>
+Este episodio, por tanto, debe ser leído en clave estructural. No se trata de tomar partido por una u otra posición económica, sino de reconocer el riesgo que implica normalizar la subordinación de las instituciones al Ejecutivo. Cuando el poder político deja de reconocer límites efectivos, la institucionalidad pierde su función moderadora y se convierte en un simple vehículo de decisión.
+</p>
+    
+<p>
+La cuestión de fondo no es si el Banco de la República tiene razón en sus decisiones, ni si el gobierno tiene argumentos legítimos para cuestionarlas. La cuestión es si el orden político colombiano está dispuesto a sostener los principios que limitan el poder, incluso cuando resultan incómodos para quien lo ejerce.
+</p>
+
+<p>
+Porque cuando el poder comienza a ver los límites como obstáculos, y no como condiciones de legitimidad, el problema ya no es económico: es político. Y en ese punto, lo que está en juego no es una decisión puntual, sino la estabilidad misma del orden institucional.
+</p>
+  
+</div>
+
+</div>
+
+</body>
+</html>
